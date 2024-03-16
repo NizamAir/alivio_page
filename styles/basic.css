@@ -18,6 +18,15 @@ a {
   color: unset;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
 .container {
   max-width: 1400px;
@@ -28,7 +37,7 @@ a {
 .logo {
   width: 81px;
   height: 24px;
-	flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .btn {
@@ -50,7 +59,7 @@ a {
   cursor: pointer;
 }
 
-.btn--signin{
-	background-color: transparent;
-	color: var(--co-black);
+.btn--signin {
+  background-color: transparent;
+  color: var(--co-black);
 }
